@@ -30,6 +30,29 @@ class Main extends CI_Controller{
     }
 
 
+    //menu 
+
+    function Reservation(){
+        $this->load->view('reserve');
+    }
+
+
+
+    //menu 
+
+    function Blog(){
+        $this->load->view('blog');
+    }
+
+
+    //menu 
+
+    function Contact_Us(){
+        $this->load->view('contact');
+    }
+
+
+
 
 }
 

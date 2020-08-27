@@ -84,8 +84,8 @@
                                     <li><a href="menu-card-3.html">Menu Card 3</a></li>
                                 </ul> -->
                             </li>
-                            <li><a href="reserv.html">Reservation</a></li>
-                            <li><a href="blog.html">Blog</a>
+                            <li><a href="<?php echo base_url().'index.php/Main/Reservation';?>">Reservation</a></li>
+                            <li><a href="<?php echo base_url().'index.php/Main/Blog';?>">Blog</a>
                                 <!-- <ul>
                                     <li><a href="blog.html">Blog Style 1</a></li>
                                     <li><a href="blog-2.html">Blog Style 2</a></li>
@@ -99,7 +99,7 @@
                                     <li><a href="cart-page.html">Cart Page</a></li>
                                 </ul>
                             </li> -->
-                            <li><a href="contact-us.html">Contact</a></li>
+                            <li><a href="<?php echo base_url().'index.php/Main/Contact_Us';?>">Contact</a></li>
                         </ul>
 					</div>
 				</div>
@@ -159,8 +159,8 @@
                                                 <li><a href="menu-card-3.html">Menu Card 3</a></li>
                                             </ul> -->
                                         </li>   
-                                        <li><a href="reserv.html">Reservation</a></li>
-                                        <li><a href="blog.html">Blog</a>
+                                        <li><a href="<?php echo base_url().'index.php/Main/Reservation';?>">Reservation</a></li>
+                                        <li><a href="<?php echo base_url().'index.php/Main/Blog';?>">Blog</a>
                                            
                                         </li>
                                         <!-- <li><a href="#">Shop</a>
@@ -170,7 +170,7 @@
                                                 <li><a href="cart-page.html">Cart Page</a></li>
                                             </ul>
                                         </li> -->
-                                        <li><a href="contact-us.html">Contact</a></li>
+                                        <li><a href="<?php echo base_url().'index.php/Main/Contact_Us';?>">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="cart-search">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	
-<!-- Mirrored from labartisan.net/demo/foodbuzz/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Aug 2020 11:07:00 GMT -->
+<!-- Mirrored from labartisan.net/demo/foodbuzz/reserv.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Aug 2020 11:07:00 GMT -->
 <head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,7 @@
 		<!-- cusyom scss -->
         <link rel="stylesheet" href="<?php echo base_url().'assets/css/style.css'?>">
         
-		<title>About Us</title>
+		<title>FoodBuzz</title>
 	</head>
 
 	<body>
@@ -57,7 +57,7 @@
 		<div class="mobile-menu">
 			<nav class="mobile-header">
 				<div class="header-logo">
-					<a href="<?php echo base_url().'index.php/Main/home';?>"><img src="<?php echo base_url().'assets/images/logo/01.png';?>" alt="logo"></a>
+					<a href="<?php echo base_url().'index.php/Main/home';?>"><img src="<?php echo base_url().'index.php/Main/Blog';?>assets/images/logo/01.png" alt="logo"></a>
 				</div>
 				<div class="header-bar">
 					<span></span>
@@ -70,27 +70,19 @@
 					<div class="mobile-menu-area-inner">
 						<ul>
                             <li><a href="<?php echo base_url().'index.php/Main/home';?>">Home</a></li>
-                            <li class="active"><a href="#">Pages</a>
+                            <li><a href="#">Pages</a>
                                 <ul>
-                                    <li class="active"><a href="<?php echo base_url().'index.php/Main/about';?>">About Us</a></li>
+                                    <li><a href="<?php echo base_url().'index.php/Main/about';?>">About Us</a></li>
                                     <li><a href="<?php echo base_url().'index.php/Main/comming_soon';?>">Coming Soon</a></li>
                                     <!-- <li><a href="404.html">404</a></li> -->
                                 </ul>
                             </li>
                             <li><a href="<?php echo base_url().'index.php/Main/Menu';?>">Our Menu</a>
-                                <!-- <ul>
-                                    <li><a href="menu-card.html">Menu Card</a></li>
-                                    <li><a href="menu-card-2.html">Menu Card 2</a></li>
-                                    <li><a href="menu-card-3.html">Menu Card 3</a></li>
-                                </ul> -->
-                            </li>   
-                            <li><a href="<?php echo base_url().'index.php/Main/Reservation';?>">Reservation</a></li>
+                               
+                            </li>
+                            <li class="active"><a href="<?php echo base_url().'index.php/Main/Reservation';?>">Reservation</a></li>
                             <li><a href="<?php echo base_url().'index.php/Main/Blog';?>">Blog</a>
-                                <!-- <ul>
-                                    <li><a href="blog.html">Blog Style 1</a></li>
-                                    <li><a href="blog-2.html">Blog Style 2</a></li>
-                                    <li><a href="blog-single.html">Blog Single</a></li>
-                                </ul> -->
+                                
                             </li>
                             <!-- <li><a href="#">Shop</a>
                                 <ul>
@@ -121,27 +113,19 @@
                                 <div class="main-menu">
                                     <ul>
                                         <li><a href="<?php echo base_url().'index.php/Main/home';?>">Home</a></li>
-                                        <li class="active"><a href="#">Pages</a>
+                                        <li><a href="#">Pages</a>
                                             <ul>
-                                                <li class="active"><a href="<?php echo base_url().'index.php/Main/about';?>">About Us</a></li>
+                                                <li><a href="<?php echo base_url().'index.php/Main/about';?>">About Us</a></li>
                                                 <li><a href="<?php echo base_url().'index.php/Main/comming_soon';?>">Coming Soon</a></li>
                                                 <!-- <li><a href="404.html">404</a></li> -->
                                             </ul>
                                         </li>
                                         <li><a href="<?php echo base_url().'index.php/Main/Menu';?>">Our Menu</a>
-                                            <!-- <ul>
-                                                <li><a href="menu-card.html">Menu Card</a></li>
-                                                <li><a href="menu-card-2.html">Menu Card 2</a></li>
-                                                <li><a href="menu-card-3.html">Menu Card 3</a></li>
-                                            </ul> -->
-                                        </li>   
-                                        <li><a href="<?php echo base_url().'index.php/Main/Reservation';?>">Reservation</a></li>
-                                        <li><a href="<?php echo base_url().'index.php/Main/Blog';?>l">Blog</a>
-                                            <!-- <ul>
-                                                <li><a href="blog.html">Blog Style 1</a></li>
-                                                <li><a href="blog-2.html">Blog Style 2</a></li>
-                                                <li><a href="blog-single.html">Blog Single</a></li>
-                                            </ul> -->
+                                         
+                                        </li>
+                                        <li class="active"><a href="<?php echo base_url().'index.php/Main/Reservation';?>">Reservation</a></li>
+                                        <li><a href="<?php echo base_url().'index.php/Main/Blog';?>">Blog</a>
+                                         
                                         </li>
                                         <!-- <li><a href="#">Shop</a>
                                             <ul>
@@ -295,14 +279,15 @@
 		</header>
 		<!-- desktop menu ending here -->
         
+
         <!-- Page Header Section Start Here -->
         <section class="page-header style-2">
             <div class="container">
                 <div class="page-title text-center">
-                    <h3>About Our FoodBuzz</h3>
+                    <h3>Booking a Online Table</h3>
                     <ul class="breadcrumb">
-                        <li><a href="<?php echo base_url().'index.php/Main/home';?>">Home</a></li>
-                        <li>About</li>
+                        <li><a href="index.html">Home</a></li>
+                        <li>Reservation</li>
                     </ul>
                 </div>
             </div>
@@ -310,36 +295,8 @@
         <!-- Page Header Section Ending Here -->
        
 
-		<!-- About Section Start here -->
-		<section class="about padding-tb">
-            <div class="container">
-                <div class="row align-items-center flex-row-reverse">
-                    <div class="col-lg-6 col-12">
-                        <div class="about-thumb">
-                            <img src="assets/images/about/01.png" alt="about-food">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="about-content">
-                            <div class="section-header">
-                                <span>Welcome FoodBuzz</span>
-                                <h3>About Restaurant History!</h3>
-                            </div>
-                            <div class="section-wrapper">
-                                <p>Synergistca conceptualize leveraged inte ectual capital through virtual and the a and Proactiviely initiate lrisk highyield a platforms after realtme froms growth that awesome tently matrix robusti method powerm foistcky Sytical concepta leved ntelectua anding capita hrough virtua nteectua that capta  the and Proactiviely initiate low risk highyield platforms after realtme froms that there andin Proctive initate low risk high yeld platform aftering Conven iterate optimal paradigms reliable techno</p>
-                                <a href="#" class="food-btn style-2"><span>get diraction</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-		<!-- About Section Ending here -->
-
-
-       <!-- Booking Table Section Start Here -->
-       <!-- <section class="booking-table bg_size p-rel padding-tb" style="background-image: url(assets/css/bg-image/contact-bg.jpg);">
-            <div class="overlay"></div>
+        <!-- Booking Table Section Start Here -->
+        <section class="booking-table padding-tb">
             <div class="container">
                 <div class="section-header">
                     <img src="assets/images/header/sc-img.png" alt="sc-img" class="header-img">
@@ -387,261 +344,13 @@
                                     <textarea name="message" rows="6" placeholder="Message"></textarea>
                                     <button type="submit" class="food-btn style-2"><span>book a table</span></button>
                                 </form>
-                            </div>
+							</div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- Booking Table Section Ending Here -->
-
-
-        <!-- Team Member Section Start here -->
-        <div class="team-section style-2 padding-tb">
-            <div class="container">
-                <div class="section-header">
-                    <img src="assets/images/header/sc-img.png" alt="sc-img" class="header-img">
-                    <span>Meet Our Chef</span>
-                    <h2>Meet Our Very Best Chefs</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="team-bottom">
-                            <div class="team-bottom-area">
-                                <div class="row justify-content-center align-items-center">
-                                    <div class="col-xl-4 col-md-6 col-12">
-                                        <div class="team-item style-2">
-                                            <div class="team-item-inner">
-                                                <div class="team-thumb">
-                                                    <div class="t-thumb">
-                                                        <img src="assets/images/team/01.jpg" alt="team-membar">
-                                                    </div>
-                                                    <div class="self-intregration">
-                                                        <div class="intregration-head">
-                                                            <span>Follow Me</span>
-                                                        </div>
-                                                        <div class="intregration-icon">
-                                                            <ul>
-                                                                <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                                                <li><a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
-                                                                <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                                                                <li><a href="#" class="globe"><i class="fas fa-globe"></i></a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="team-content">
-                                                    <a href="homechef-single.html"><h5 class="member-name">Zinnat Zara</h5></a>
-                                                    <span class="member-dagi">Founder & CEO</span>
-                                                    <p class="member-details">Proce Aran Manu Proucs Rahe Conen Cuve Manu Produ Rahe Cuvaes Mana The Conen Testin Motin</p>
-                                                    <ul class="icon-style-list codex">
-                                                        <li><i class="icofont-phone"></i><span>+880 9234 567 890</span></li>
-                                                        <li><i class="icofont-envelope"></i><span>zinnatzara@gmail.com</span></li>
-                                                        <li>
-                                                            <i class="fas fa-share-alt-square"></i>
-                                                            <ul class="d-flex flex-wrap justify-content-start codex">
-                                                                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-                                                                <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
-                                                                <li><a class="basketball" href="#"><i class="fas fa-basketball-ball"></i></a></li>
-                                                                <li><a class="vimeo" href="#"><i class="fab fa-vimeo-v"></i></a></li>
-                                                                <li><a class="behance" href="#"><i class="fab fa-behance"></i></a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-md-6 col-12">
-                                        <div class="team-item style-2">
-                                            <div class="team-item-inner">
-                                                <div class="team-thumb">
-                                                    <div class="t-thumb">
-                                                        <img src="assets/images/team/02.jpg" alt="team-membar">
-                                                    </div>
-                                                    <div class="self-intregration">
-                                                        <div class="intregration-head">
-                                                            <span>Follow Me</span>
-                                                        </div>
-                                                        <div class="intregration-icon">
-                                                            <ul>
-                                                                <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                                                <li><a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
-                                                                <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                                                                <li><a href="#" class="globe"><i class="fas fa-globe"></i></a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="team-content">
-                                                    <a href="homechef-single.html"><h5 class="member-name">Tom Holland</h5></a>
-                                                    <span class="member-dagi">Founder & CEO</span>
-                                                    <p class="member-details">Proce Aran Manu Proucs Rahe Conen Cuve Manu Produ Rahe Cuvaes Mana The Conen Testin Motin</p>
-                                                    <ul class="icon-style-list codex">
-                                                        <li><i class="icofont-phone"></i><span>+880 9234 567 890</span></li>
-                                                        <li><i class="icofont-envelope"></i><span>tomholland@gmail.com</span></li>
-                                                        <li>
-                                                            <i class="fas fa-share-alt-square"></i>
-                                                            <ul class="d-flex flex-wrap justify-content-start codex">
-                                                                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-                                                                <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
-                                                                <li><a class="basketball" href="#"><i class="fas fa-basketball-ball"></i></a></li>
-                                                                <li><a class="vimeo" href="#"><i class="fab fa-vimeo-v"></i></a></li>
-                                                                <li><a class="behance" href="#"><i class="fab fa-behance"></i></a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-md-6 col-12">
-                                        <div class="team-item style-2">
-                                            <div class="team-item-inner">
-                                                <div class="team-thumb">
-                                                    <div class="t-thumb">
-                                                        <img src="assets/images/team/03.jpg" alt="team-membar">
-                                                    </div>
-                                                    <div class="self-intregration">
-                                                        <div class="intregration-head">
-                                                            <span>Follow Me</span>
-                                                        </div>
-                                                        <div class="intregration-icon">
-                                                            <ul>
-                                                                <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                                                <li><a href="#" class="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
-                                                                <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-                                                                <li><a href="#" class="globe"><i class="fas fa-globe"></i></a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="team-content">
-                                                    <a href="homechef-single.html"><h5 class="member-name">Zarina Wahab</h5></a>
-                                                    <span class="member-dagi">Founder & CEO</span>
-                                                    <p class="member-details">Proce Aran Manu Proucs Rahe Conen Cuve Manu Produ Rahe Cuvaes Mana The Conen Testin Motin</p>
-                                                    <ul class="icon-style-list codex">
-                                                        <li><i class="icofont-phone"></i><span>+880 9234 567 890</span></li>
-                                                        <li><i class="icofont-envelope"></i><span>zarinawahab@gmail.com</span></li>
-                                                        <li>
-                                                            <i class="fas fa-share-alt-square"></i>
-                                                            <ul class="d-flex flex-wrap justify-content-start codex">
-                                                                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-                                                                <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
-                                                                <li><a class="basketball" href="#"><i class="fas fa-basketball-ball"></i></a></li>
-                                                                <li><a class="vimeo" href="#"><i class="fab fa-vimeo-v"></i></a></li>
-                                                                <li><a class="behance" href="#"><i class="fab fa-behance"></i></a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team Member Section Ending here -->
-
-
-        <!-- clients area start -->
-        <section class="clients-area padding-tb bg_size p-rel" style="background-image: url(assets/images/clients/clients_bg.jpg);">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="section-header text-center">
-                    <img src="assets/images/header/sc-img.png" alt="sc-img" class="header-img">
-                    <span>Our Valuable Client</span>
-                    <h2>What People Say About us</h2>
-                </div>
-                <div class="section-wrapper">
-                    <div class="clients-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="clients-item text-center">
-                                    <div class="clients-thumb">
-                                        <img src="assets/images/clients/01.jpg" alt="clients-image">
-                                    </div>
-                                    <div class="clients-text">
-                                        <p>
-                                            <span><i class="fas fa-quote-left"></i></span>
-                                            Proactivel expedite cost ectve andoportunties through aeconomical are creative a souncreative theme Enthusiastical maintain creative effective anifunctionalities Conveniently are creative anarecaptiualize Conveniently are creative theme for business anarecaptiualize
-                                            <span><i class="fas fa-quote-right"></i></span>
-                                        </p>
-                                        <div class="rating">
-                                            <span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                            <span><i class="fas fa-star-half-alt"></i></span>
-                                        </div>
-                                        <h6>Zinnat Zaara</h6>
-                                        <span>Senior Ui / ux Desiner</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="clients-item text-center">
-                                    <div class="clients-thumb">
-                                        <img src="assets/images/clients/03.jpg" alt="clients-image">
-                                    </div>
-                                    <div class="clients-text">
-                                        
-                                        <p>
-                                            <span><i class="fas fa-quote-left"></i></span>
-                                            Proactivel expedite cost ectve andoportunties through aeconomical are creative a souncreative theme
-                                            Enthusiastical maintain creative effective anifunctionalities Conveniently are creative anarecaptiualize
-                                            Conveniently are creative theme for business anarecaptiualize
-                                            <span><i class="fas fa-quote-right"></i></span>
-                                        </p>
-                                        <div class="rating">
-                                            <span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                            <span><i class="fas fa-star-half-alt"></i></span>
-                                        </div>
-                                        <h6>Mannan Khan</h6>
-                                        <span>Head Of Idia</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="clients-item text-center">
-                                    <div class="clients-thumb">
-                                        <img src="assets/images/clients/02.jpg" alt="clients-image">
-                                    </div>
-                                    <div class="clients-text">
-                                        
-                                        <p>
-                                            <span><i class="fas fa-quote-left"></i></span>
-                                            Proactivel expedite cost ectve andoportunties through aeconomical are creative a souncreative theme
-                                            Enthusiastical maintain creative effective anifunctionalities Conveniently are creative anarecaptiualize
-                                            Conveniently are creative theme for business anarecaptiualize
-                                            <span><i class="fas fa-quote-right"></i></span>
-                                        </p>
-                                        <div class="rating">
-                                            <span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                            <span><i class="fas fa-star-half-alt"></i></span>
-                                        </div>
-                                        <h6>Subrina Kabir</h6>
-                                        <span>Lead Desiner</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clients-pagination"></div>
                 </div>
             </div>
         </section>
-        <!-- clients area ends -->
+        <!-- Booking Table Section Ending Here -->
 
 
         <!-- Sponsor Section Start Here -->
@@ -852,8 +561,7 @@
 		<!-- scrollToTop ending here -->
 
 
-		
-		<script src="<?php echo base_url().'assets/js/jquery.js';?>"></script>
+        <script src="<?php echo base_url().'assets/js/jquery.js';?>"></script>
 		<script src="<?php echo base_url().'assets/js/fontawesome.min.js';?>"></script>
 		<script src="<?php echo base_url().'assets/js/waypoints.min.js';?>"></script>
 		<script src="<?php echo base_url().'assets/js/bootstrap.min.js'?>"></script>
@@ -867,5 +575,5 @@
         <script src="<?php echo base_url().'assets/js/functions.js';?>"></script>
 	</body>
 
-<!-- Mirrored from labartisan.net/demo/foodbuzz/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Aug 2020 11:07:00 GMT -->
+<!-- Mirrored from labartisan.net/demo/foodbuzz/reserv.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Aug 2020 11:07:00 GMT -->
 </html>

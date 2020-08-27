@@ -58,7 +58,7 @@
 		<div class="mobile-menu">
 			<nav class="mobile-header">
 				<div class="header-logo">
-					<a href="index.html"><img src="assets/images/logo/01.png" alt="logo"></a>
+					<a href="<?php echo base_url().'index.php/Main/home';?>"><img src="<?php echo base_url().'assets/images/logo/01.png';?>" alt="logo"></a>
 				</div>
 				<div class="header-bar">
 					<span></span>
@@ -70,28 +70,20 @@
 				<div class="mobile-menu-area">
 					<div class="mobile-menu-area-inner">
 						<ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="<?php echo base_url().'index.php/Main/home';?>">Home</a></li>
                             <li><a href="#">Pages</a>
                                 <ul>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="coming-soon.html">Coming Soon</a></li>
+                                    <li><a href="<?php echo base_url().'index.php/Main/about';?>">About Us</a></li>
+                                    <li><a href="<?php echo base_url().'index.php/Main/comming_soon';?>">Coming Soon</a></li>
                                     <!-- <li><a href="404.html">404</a></li> -->
                                 </ul>
                             </li>
-                            <li class="active"><a href="menu-card-2.html">Our Menu</a>
-                                <!-- <ul>
-                                    <li><a href="menu-card.html">Menu Card</a></li>
-                                    <li class="active"><a href="menu-card-2.html">Menu Card 2</a></li>
-                                    <li><a href="menu-card-3.html">Menu Card 3</a></li>
-                                </ul> -->
+                            <li class="active"><a href="<?php echo base_url().'index.php/Main/Menu';?>">Our Menu</a>
+                               
                             </li>   
-                            <li><a href="reserv.html">Reservation</a></li>
-                            <li><a href="blog.html">Blog</a>
-                                <!-- <ul>
-                                    <li><a href="blog.html">Blog Style 1</a></li>
-                                    <li><a href="blog-2.html">Blog Style 2</a></li>
-                                    <li><a href="blog-single.html">Blog Single</a></li>
-                                </ul> -->
+                            <li><a href="<?php echo base_url().'index.php/Main/Reservation';?>">Reservation</a></li>
+                            <li><a href="<?php echo base_url().'index.php/Main/Blog';?>">Blog</a>
+                               
                             </li>
                             <!-- <li><a href="#">Shop</a>
                                 <ul>
@@ -116,28 +108,28 @@
                     <div class="container">
                         <div class="primary-menu">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/images/logo/01.png" alt="logo"></a>
+                                <a href="<?php echo base_url().'index.php/Main/home'?>"><img src="<?php echo base_url().'assets/images/logo/01.png';?>" alt="logo"></a>
                             </div>
                             <div class="main-area">
                                 <div class="main-menu">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="<?php echo base_url().'index.php/Main/home'?>">Home</a></li>
                                         <li><a href="#">Pages</a>
                                             <ul>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                                                <li><a href="<?php echo base_url().'index.php/Main/about'?>">About Us</a></li>
+                                                <li><a href="<?php echo base_url().'index.php/Main/comming_soon'?>">Coming Soon</a></li>
                                                 <!-- <li><a href="404.html">404</a></li> -->
                                             </ul>
                                         </li>
-                                        <li class="active"><a href="menu-card-2.html">Our Menu</a>
+                                        <li class="active"><a href="<?php echo base_url().'index.php/Main/Menu'?>">Our Menu</a>
                                             <!-- <ul>
                                                 <li><a href="menu-card.html">Menu Card</a></li>
                                                 <li class="active"><a href="menu-card-2.html">Menu Card 2</a></li>
                                                 <li><a href="menu-card-3.html">Menu Card 3</a></li>
                                             </ul> -->
                                         </li>   
-                                        <li><a href="reserv.html">Reservation</a></li>
-                                        <li><a href="blog.html">Blog</a>
+                                        <li><a href="<?php echo base_url().'index.php/Main/Reservation'?>">Reservation</a></li>
+                                        <li><a href="<?php echo base_url().'index.php/Main/Blog'?>">Blog</a>
                                             <!-- <ul>
                                                 <li><a href="blog.html">Blog Style 1</a></li>
                                                 <li><a href="blog-2.html">Blog Style 2</a></li>
@@ -151,7 +143,7 @@
                                                 <li><a href="cart-page.html">Cart Page</a></li>
                                             </ul>
                                         </li> -->
-                                        <li><a href="contact-us.html">Contact</a></li>
+                                        <li><a href="<?php echo base_url().'index.php/Main/Contact'?>">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="cart-search">
