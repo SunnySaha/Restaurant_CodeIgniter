@@ -364,11 +364,11 @@
 		<!-- About Section Ending here -->
 
 		<!-- Food Product Section Start here -->
-        <section class="product bg_size p-rel padding-tb" style="background-image: url(assets/css/bg-image/product-bg.jpg);">
+        <section class="product bg_size p-rel padding-tb" style="background-image: url(<?php echo base_url().'assets/css/bg-image/product-bg.jpg';?>);">
             <div class="overlay"></div>
             <div class="container">
                 <div class="section-header">
-                    <img src="assets/images/header/sc-img.png" alt="sc-img" class="header-img">
+                    <img src="<?php echo base_url().'assets/images/header/sc-img.png';?>" alt="sc-img" class="header-img">
                     <span id="span">Special Today</span>
                     <h2 style="color:orange;">Restaurant With Special Foods</h2>
                 </div>
@@ -377,7 +377,7 @@
                         <div class="col-xl-3 col-md-6 col-12">
                             <div class="product-item">
                                 <div class="product-thumb">
-                                    <img src="assets/images/product/01.jpg" alt="food-product">
+                                    <img src="<?php echo base_url().'assets/images/product/01.jpg';?>" alt="food-product">
                                     <span class="price">$10</span>
                                 </div>
                                 <div class="product-content">
@@ -396,7 +396,7 @@
                         <div class="col-xl-3 col-md-6 col-12">
                             <div class="product-item">
                                 <div class="product-thumb">
-                                    <img src="assets/images/product/02.jpg" alt="food-product">
+                                    <img src="<?php echo base_url().'assets/images/product/02.jpg';?>" alt="food-product">
                                     <span class="price">$20</span>
                                 </div>
                                 <div class="product-content">
@@ -415,7 +415,7 @@
                         <div class="col-xl-3 col-md-6 col-12">
                             <div class="product-item">
                                 <div class="product-thumb">
-                                    <img src="assets/images/product/03.jpg" alt="food-product">
+                                    <img src="<?php echo base_url().'assets/images/product/03.jpg';?>" alt="food-product">
                                     <span class="price">$30</span>
                                 </div>
                                 <div class="product-content">
@@ -434,7 +434,7 @@
                         <div class="col-xl-3 col-md-6 col-12">
                             <div class="product-item">
                                 <div class="product-thumb">
-                                    <img src="assets/images/product/04.jpg" alt="food-product">
+                                    <img src="<?php echo base_url().'assets/images/product/04.jpg';?>" alt="food-product">
                                     <span class="price">$40</span>
                                 </div>
                                 <div class="product-content">
@@ -914,7 +914,7 @@
                             <div class="col-lg-6 col-12">
                                 <div class="product-item style-2">
                                     <div class="product-thumb">
-                                        <img src="assets/images/product/19.jpg" alt="food-product">
+                                        <img src="<?php echo base_url().'assets/images/product/19.jpg';?>" alt="food-product">
                                         <span class="price">$20</span>
                                     </div>
                                     <div class="product-content">
@@ -937,7 +937,7 @@
                             <div class="col-lg-6 col-12">
                                 <div class="product-item style-2">
                                     <div class="product-thumb">
-                                        <img src="assets/images/product/20.jpg" alt="food-product">
+                                        <img src="<?php echo base_url().'assets/images/product/20.jpg';?>" alt="food-product">
                                         <span class="price">$20</span>
                                     </div>
                                     <div class="product-content">
@@ -960,7 +960,7 @@
                             <div class="col-lg-6 col-12">
                                 <div class="product-item style-2">
                                     <div class="product-thumb">
-                                        <img src="assets/images/product/01.jpg" alt="food-product">
+                                        <img src="<?php echo base_url().'assets/images/product/01.jpg';?>" alt="food-product">
                                         <span class="price">$20</span>
                                     </div>
                                     <div class="product-content">
@@ -983,7 +983,7 @@
                             <div class="col-lg-6 col-12">
                                 <div class="product-item style-2">
                                     <div class="product-thumb">
-                                        <img src="assets/images/product/02.jpg" alt="food-product">
+                                        <img src="<?php echo base_url().'assets/images/product/02.jpg';?>" alt="food-product">
                                         <span class="price">$20</span>
                                     </div>
                                     <div class="product-content">
@@ -1011,7 +1011,7 @@
         <!-- Food Product Section Style 2 Ending here -->
 
         <!-- Booking Table Section Start Here -->
-        <section class="booking-table bg_size p-rel padding-tb" style="background-image: url(assets/css/bg-image/contact-bg.jpg);">
+        <section class="booking-table bg_size p-rel padding-tb" style="background-image: url(<?php echo base_url().'assets/css/bg-image/contact-bg.jpg';?>);">
             <div class="overlay"></div>
             <div class="container">
                 <div class="section-header">
@@ -1470,7 +1470,7 @@
         <!-- link area ends -->
 
         <!-- footer area start -->
-        <footer class="padding-tb" style="background-image: url(assets/css/bg-image/footer-bg.jpg);">
+        <footer class="padding-tb" style="background-image: url(<?php echo base_url().'assets/css/bg-image/footer-bg.jpg';?>);">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-4 col-lg-4 col-md-6 col-12">
@@ -1532,7 +1532,7 @@
                                 We Wont Give You Spam Mails.
                             </p>
                             <div class="contact-search">
-                                <form class="searchForm" method="get" action="http://labartisan.net/demo/foodbuzz/0">              
+                                <form class="searchForm" method="get" action="">              
                                     <input class="searchTerm"  placeholder="Your Email" autocomplete="off">
                                     <input type="submit" class="searchBtn" value="Subscribe!"/> 
                                 </form> 
@@ -1567,11 +1567,11 @@
         <!-- footer menu start -->
         <div class="fotter-header">
             <header>
-                <div class="footer-bg">
-                    <div class="container">
-                        <div class="header-item">
+                <div class="footer-bg" style="background:orange;">
+                    <div class="container" >
+                        <div class="header-item" >
                             <div class="header-logo">
-                                <p>&copy; 2020<a href="index.html">FoodBuzz</a>Designed by<a href="https://themeforest.net/user/labartisan">Labartisan</a></p>
+                                <p>&copy; 2020<a href="<?php echo base_url().'index.php/Main/home'?>">FoodBuzz</a></p>
                             </div>
                             
                         </div>
